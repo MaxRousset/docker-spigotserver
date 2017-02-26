@@ -1,8 +1,9 @@
 # Launch a spigot server
 
+
 Simple lightweight launcher for spigot server
 
-You must have spigot.jar in $/YOUR/SERVER/DIRECTORY
+* You must have spigot.jar in $/YOUR/SERVER/DIRECTORY
 
 You can set memory with MEM option (default is 1024)
 

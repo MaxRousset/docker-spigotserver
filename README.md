@@ -1,5 +1,6 @@
 # Launch a spigot server
 
+Simple lightweight launcher for spigot server
 
 You must have spigot.jar in /YOUR/SERVER/DIRECTORY
 

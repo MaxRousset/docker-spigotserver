@@ -1,16 +1,12 @@
-FROM debian:latest
-MAINTAINER JustToLaunch
+FROM openjdk:8-jre-alpine
+MAINTAINER justtolaunch
 
 VOLUME ["/data"]
 
-RUN	apt update &&\
-	apt-get install -y openjdk-7-jre
-
-RUN useradd --home /data minecraft
-
 COPY start.sh /start.sh
 
-RUN chmod +x start.sh
+RUN adduser -D -h /data minecraft \
+	&& chmod +x start.sh
 
 EXPOSE 25565
 

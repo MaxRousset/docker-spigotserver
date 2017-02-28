@@ -1,6 +1,6 @@
 #!/bin/ash
 
-MEM=${HOSTS_URL:-1024}
+MEM=${MEM:-1024}
 
 chown -R minecraft:minecraft /data
 cd /data

@@ -9,4 +9,4 @@ You can set memory with MEM option (default is 1024)
 
 cmd :
 
-    docker run --rm -it -v $/YOUR/SERVER/DIRECTORY:/data -e MEM=2048 -p 25565:25565 justtolaunch/spigot-server
+    docker run --rm -it -v $/YOUR/SERVER/DIRECTORY:/data -e MEM=2048 -p 25565:25565 justtolaunch/spigotserver

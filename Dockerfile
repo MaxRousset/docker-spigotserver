@@ -6,8 +6,8 @@ VOLUME ["/data"]
 COPY start.sh /start.sh
 
 RUN  apk update \
-    && apk add sqlite \
-    && apk add socat \
+    && apk add --no-cache sqlite \
+    && apk add --no-cache socat \
     && adduser -D -h /data minecraft \
     && chmod +x start.sh
 

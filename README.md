@@ -1,5 +1,6 @@
 # Launch a spigot server
 
+[![](https://images.microbadger.com/badges/image/justtolaunch/spigotserver.svg)](https://microbadger.com/images/justtolaunch/spigotserver "Get your own image badge on microbadger.com")
 
 Simple lightweight launcher for spigot server
 

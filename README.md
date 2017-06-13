@@ -5,7 +5,7 @@ Spigot server
 
 This image is based on openjdk:8-jre-alpine
 
-You must already have your spigot.jar to compile it see : [spigotbuilder](https://github.com/MaxRousset/spigotbuilder)
+You must already have your spigot.jar, to compile it see : [spigotbuilder](https://github.com/MaxRousset/spigotbuilder)
 
 Usage
 -----
@@ -21,7 +21,7 @@ Starting container :
 Options
 -------
 
-This image expose de default minecraft port 25565 change external port to 25500 with
+This image expose de default minecraft port 25565 you can change external port to 25500 with
 
     -p 25500:25565
 

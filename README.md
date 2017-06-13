@@ -9,8 +9,7 @@ You must already have your spigot.jar, to compile it see : [spigotbuilder](https
 
 Usage
 -----
-You must attach the minecraft directory to the container directory 
-Example :
+You must attach the minecraft directory to the container directory :
 
     -v /home/spigot/server:/data
     

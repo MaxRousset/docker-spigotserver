@@ -27,6 +27,7 @@ This image expose de default minecraft port 25565 change external port to 25500 
 
 You can set memory with MEM option (default is 1024)
 
+    -e MEM=2048 
 
 Using the spigot terminal
 -------------------------
